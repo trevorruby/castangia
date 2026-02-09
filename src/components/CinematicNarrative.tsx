@@ -18,10 +18,8 @@ export function CinematicNarrative() {
     const scene1TextY = useTransform(scrollYProgress, [0, 0.25], [0, 50]);
 
     // PARALLAX DRIFT SPEEDS (The Floating Feed)
-    // Different elements move at different speeds to create depth
     const driftFast = useTransform(scrollYProgress, [0, 1], [0, -100]);
     const driftSlow = useTransform(scrollYProgress, [0, 1], [0, -50]);
-    const driftReverse = useTransform(scrollYProgress, [0, 1], [0, 50]);
 
     return (
         <div ref={containerRef} className="relative bg-[#151515] text-[#FDFCF8]">
@@ -54,7 +52,6 @@ export function CinematicNarrative() {
 
             {/* 
                 SCENE 2: THE SCATTER STREAM (Solomei AI Interface Style)
-                Content flows freely behind the sticky input.
             */}
             <div className="relative z-20 pb-64 px-6 md:px-0">
                 <div className="max-w-screen-xl mx-auto">
@@ -111,7 +108,7 @@ export function CinematicNarrative() {
                         </div>
                     </motion.div>
 
-                    {/* Thought Cluster 3: Center (Reverse Drift / Anchor) */}
+                    {/* Thought Cluster 3: Center (Anchor) */}
                     <div className="flex justify-center mb-40">
                         <div className="max-w-md text-center">
                             <motion.div
@@ -131,7 +128,7 @@ export function CinematicNarrative() {
                         </div>
                     </div>
 
-                    {/* Thought Cluster 4: Large Feature (Standard Scroll) */}
+                    {/* Thought Cluster 4: Large Feature */}
                     <div className="flex justify-center mb-32 relative">
                         <motion.div
                             initial={{ opacity: 0, scale: 0.98 }}
@@ -182,15 +179,17 @@ export function CinematicNarrative() {
                                 placeholder="Consult the Archive..."
                                 className="w-full bg-transparent text-lg font-serif text-white/90 placeholder:text-white/30 focus:outline-none focus:placeholder:text-white/10 transition-colors"
                             />
-                        </button>
+                            <button className="ml-4 p-2 rounded-full hover:bg-white/10 transition-colors">
+                                <ArrowRight className="w-5 h-5 text-white/50 hover:text-white" />
+                            </button>
+                        </motion.div>
+                    </div>
+                    <p className="text-center mt-3 text-[9px] uppercase tracking-[0.3em] text-white/20">
+                        Castangia 1850 • Neural Interface
+                    </p>
                 </motion.div>
             </div>
-            <p className="text-center mt-3 text-[9px] uppercase tracking-[0.3em] text-white/20">
-                Castangia 1850 • Neural Interface
-            </p>
-        </motion.div>
-            </div >
 
-        </div >
+        </div>
     );
 }
