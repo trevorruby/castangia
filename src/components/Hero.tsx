@@ -24,8 +24,8 @@ export function Hero() {
                 <div
                     className="absolute inset-0 bg-cover bg-center opacity-60"
                     style={{
-                        backgroundImage: "url('https://images.unsplash.com/photo-1594938298603-c8148c47e356?q=80&w=2574&auto=format&fit=crop')", // High-end suit tailoring image
-                        filter: "grayscale(20%) contrast(110%)"
+                        backgroundImage: "url('/hero.jpg')",
+                        filter: "grayscale(0%) contrast(100%)"
                     }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-charcoal/30 via-transparent to-charcoal/80" />
