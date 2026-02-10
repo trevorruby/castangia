@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { STORES, Store } from "@/data/Stores";
+import { STORES, Store } from "@/data/stores";
 import { MapPin, Clock, Phone, Search, ArrowRight } from "lucide-react";
 
 export function StoreLocator() {
