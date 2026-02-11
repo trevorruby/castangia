@@ -22,7 +22,7 @@ export function Heritage() {
                     className="absolute inset-0"
                 >
                     <img
-                        src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?q=80&w=2148&auto=format&fit=crop" // High fidelity fabric/tailoring shot
+                        src="/images/upload-2.jpg" // High fidelity fabric/tailoring shot
                         alt="Atelier Detail"
                         className="w-full h-full object-cover opacity-40 grayscale hover:grayscale-0 transition-all duration-[2s]"
                     />
@@ -31,43 +31,46 @@ export function Heritage() {
             </div>
 
             {/* Floating content */}
-            <div className="relative z-10 max-w-4xl mx-auto px-6 text-center space-y-24">
+            <div className="relative z-10 max-w-5xl mx-auto px-6 text-center space-y-24">
 
                 <motion.div
                     style={{ opacity }}
                     className="space-y-8"
                 >
-                    <span className="block text-xs uppercase tracking-[0.4em] text-[#D4AF37]">The Method</span>
-                    <h2 className="text-5xl md:text-8xl font-serif leading-none tracking-tight">
-                        Silence is the<br />loudest sound.
+                    <span className="block text-xs uppercase tracking-[0.4em] text-[#D4AF37]">The Legacy</span>
+                    <h2 className="text-4xl md:text-7xl font-serif leading-none tracking-tight">
+                        A Profound<br />Sense of Place
                     </h2>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-left items-center pt-24">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 text-left items-start pt-12">
                     <motion.div
-                        initial={{ opacity: 0, x: -50 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: "easeOut" }}
+                        className="space-y-6"
                     >
-                        <p className="text-xl md:text-2xl font-light leading-relaxed text-[#FDFCF8]/90">
-                            In a world that shouts, we whisper. <br />
-                            170 years of quiet perfection.
+                        <p className="text-lg md:text-xl font-light leading-relaxed text-[#FDFCF8]/90 text-balance">
+                            Standing proud over Cagliari, the Bastion of Saint Rémy pays tribute to the rich history of Castangia’s home in Sardinia.
+                        </p>
+                        <p className="text-base md:text-lg font-light leading-relaxed text-[#FDFCF8]/70 text-balance">
+                            The nearly 200 year legacy of Castangia predates the Kingdom of Italy itself, and respect for this history is what has allowed the brand to continue to flourish.
                         </p>
                     </motion.div>
 
                     <motion.div
-                        initial={{ opacity: 0, x: 50 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-                        className="space-y-6 text-[#FDFCF8]/60 font-mono text-xs md:text-sm tracking-wide"
+                        className="relative pl-8 border-l border-[#D4AF37]/30"
                     >
-                        <p>
-                            CAGLIARI, SARDINIA / EST. 1850
-                        </p>
-                        <p>
-                            We do not manufacture. We create. Each piece is a dialogue between the cloth and the cutter, spoken in the language of the needle.
-                        </p>
-                        <div className="w-12 h-px bg-[#D4AF37]"></div>
+                        <blockquote className="text-lg md:text-xl font-serif italic leading-relaxed text-[#FDFCF8]/80 mb-6">
+                            &ldquo;Castangia has always been a home for wonderful tailors— not only from Sardinia, but from all over Italy. The diversity of our factory lets us generate the most beautiful cosmopolitan garments for our clients across the world.&rdquo;
+                        </blockquote>
+                        <cite className="not-italic">
+                            <span className="block text-sm font-medium text-[#D4AF37] tracking-widest uppercase mb-1">Alberto Grilletti</span>
+                            <span className="block text-xs text-[#FDFCF8]/50 uppercase tracking-wider">CEO, 6th Generation</span>
+                        </cite>
                     </motion.div>
                 </div>
 

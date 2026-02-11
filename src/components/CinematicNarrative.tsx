@@ -32,7 +32,7 @@ export function CinematicNarrative() {
                 <div className="sticky top-0 h-screen overflow-hidden">
                     <motion.div style={{ opacity: scene1Opacity, scale: scene1Scale }} className="absolute inset-0">
                         <img
-                            src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?q=80&w=2148&auto=format&fit=crop"
+                            src="/images/upload-5.jpg"
                             alt="The Material"
                             className="w-full h-full object-cover grayscale opacity-60"
                         />
@@ -62,7 +62,7 @@ export function CinematicNarrative() {
                         <div className="max-w-lg text-right">
                             <div className="mb-8 min-h-[4rem]">
                                 <Typewriter
-                                    text="&quot;Sardinia doesn't ask for attention. It commands it.&quot;"
+                                    text="&quot;Craftsmanship is about pursuing excellence in the ways that are seen and even those that are not.&quot;"
                                     className="text-xl md:text-3xl font-serif font-light leading-relaxed text-white/90"
                                     speed={40}
                                     delay={0.5}
@@ -75,7 +75,7 @@ export function CinematicNarrative() {
                                 className="w-full aspect-[4/5] relative overflow-hidden group rounded-sm"
                             >
                                 <img
-                                    src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=2080&auto=format&fit=crop"
+                                    src="/images/upload-6.jpg"
                                     className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-1000 grayscale group-hover:grayscale-0"
                                     alt="The Portrait"
                                 />
@@ -93,14 +93,14 @@ export function CinematicNarrative() {
                                 className="w-full aspect-video relative overflow-hidden group rounded-sm mb-6"
                             >
                                 <img
-                                    src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?q=80&w=2695&auto=format&fit=crop"
+                                    src="/images/upload-7.jpg"
                                     className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-1000"
                                     alt="The Atmosphere"
                                 />
                             </motion.div>
                             <div className="min-h-[2rem]">
                                 <Typewriter
-                                    text="THE SILENT LANGUAGE"
+                                    text="THE UNSEEN EXCELLENCE"
                                     className="text-sm tracking-[0.2em] text-[#D4AF37] uppercase"
                                     speed={80}
                                     delay={0.2}
@@ -111,7 +111,7 @@ export function CinematicNarrative() {
 
                     {/* Thought Cluster 3: Center (Anchor) */}
                     <div className="flex justify-center mb-40">
-                        <div className="max-w-md text-center">
+                        <div className="max-w-2xl text-center">
                             <motion.div
                                 initial={{ opacity: 0, height: 0 }}
                                 whileInView={{ opacity: 0.5, height: 64 }}
@@ -120,8 +120,8 @@ export function CinematicNarrative() {
                             />
                             <div className="min-h-[6rem]">
                                 <Typewriter
-                                    text="Elegance is not an option. It is a discipline."
-                                    className="text-xl leading-loose text-white/80 font-serif"
+                                    text="Castangia: the effortless intersection of tradition and modernity."
+                                    className="text-2xl leading-loose text-white/80 font-serif"
                                     speed={40}
                                     delay={0.5}
                                 />
@@ -138,7 +138,7 @@ export function CinematicNarrative() {
                             className="w-full max-w-4xl aspect-[21/9] relative overflow-hidden group rounded-sm"
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1594938291221-94f18c9560e5?q=80&w=2080&auto=format&fit=crop"
+                                src="/images/upload-3.jpg"
                                 className="w-full h-full object-cover opacity-60 group-hover:opacity-90 transition-opacity duration-1000"
                                 alt="Detail"
                             />
