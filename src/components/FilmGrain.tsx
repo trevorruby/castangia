@@ -7,7 +7,8 @@ export function FilmGrain() {
 
     useEffect(() => {
         // Fade in to avoid flash
-        setOpacity(0.05);
+        const timer = setTimeout(() => setOpacity(0.05), 50);
+        return () => clearTimeout(timer);
     }, []);
 
     return (

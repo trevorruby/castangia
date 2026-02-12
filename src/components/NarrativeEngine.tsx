@@ -56,7 +56,7 @@ function HeritageBlock() {
                     </h2>
                     <div className="w-12 h-px bg-[#8C7B6C] md:mr-auto my-6 opacity-50 mx-auto" />
                     <p className="text-lg text-[#2C2C2C]/80 font-light leading-relaxed">
-                        For nearly 200 years—predating the Kingdom of Italy itself—Castangia has been rooted in the rich soil of Sardinia. Guided by a profound sense of place, our legacy is built on a strict adherence to traditional sartorial practices. We don't just craft garments; we preserve a cosmopolitan Italian history.
+                        For nearly 200 years—predating the Kingdom of Italy itself—Castangia has been rooted in the rich soil of Sardinia. Guided by a profound sense of place, our legacy is built on a strict adherence to traditional sartorial practices. We don&apos;t just craft garments; we preserve a cosmopolitan Italian history.
                     </p>
                     <div className="pt-4">
                         <Link
@@ -68,13 +68,13 @@ function HeritageBlock() {
                     </div>
                 </motion.div>
             </div>
-        </section>
+        </section >
     );
 }
 
 // SECTION 2: THE SILHOUETTE (Interactive Fit focus)
 function SilhouetteFeature() {
-    const { setCursorType, setCursorText } = useCursor();
+    const { setCursorType } = useCursor();
     const [activePoint, setActivePoint] = useState<number | null>(null);
 
     const hotspots = [
@@ -286,7 +286,7 @@ function AuthorityBlock() {
             </div>
             <div className="relative z-10 max-w-5xl mx-auto px-6 text-center space-y-12">
                 <blockquote className="text-2xl md:text-5xl font-serif italic text-[#2C2C2C] leading-relaxed">
-                    "Castangia has always been a home for wonderful tailors—not only from Sardinia, but from all over Italy. This is why we can say we adhere strictly to the Italian sartorial process. The diversity of our factory lets us generate the most beautiful cosmopolitan garments for our clients across the world."
+                    &quot;Castangia has always been a home for wonderful tailors—not only from Sardinia, but from all over Italy. This is why we can say we adhere strictly to the Italian sartorial process. The diversity of our factory lets us generate the most beautiful cosmopolitan garments for our clients across the world.&quot;
                 </blockquote>
                 <div>
                     <p className="text-[#8C7B6C] text-sm uppercase tracking-[0.2em] mb-2">Alberto Grilletti</p>

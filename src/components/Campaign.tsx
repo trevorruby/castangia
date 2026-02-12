@@ -61,7 +61,7 @@ export function Campaign() {
                             <div>
                                 <p className="font-serif text-2xl text-charcoal mb-4">The Imperceivable</p>
                                 <p className="text-charcoal/60 text-sm leading-relaxed">
-                                    "Quality is the sum of the parts, and Castangia is committed to perfecting those parts."
+                                    &quot;Quality is the sum of the parts, and Castangia is committed to perfecting those parts.&quot;
                                 </p>
                             </div>
                         </div>

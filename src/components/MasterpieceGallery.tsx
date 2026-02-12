@@ -171,7 +171,7 @@ function MosaicGrid() {
                         <p className="absolute bottom-4 left-4 text-[10px] uppercase tracking-[0.2em] text-white/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500">Pure VicuÃ±a</p>
                     </div>
                     <div className="max-w-xs mx-auto text-center">
-                        <p className="text-white/60 font-serif italic text-3xl leading-relaxed">"Elegance is not standing out, but being remembered."</p>
+                        <p className="text-white/60 font-serif italic text-3xl leading-relaxed">&quot;Elegance is not standing out, but being remembered.&quot;</p>
                         <p className="text-[10px] uppercase tracking-[0.2em] text-[#D4AF37] mt-4">Giorgio Armani</p>
                     </div>
                 </motion.div>
